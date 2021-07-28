@@ -1,0 +1,45 @@
+.header {
+  width: 100vw;
+  min-width: 100vw;
+  padding: 0 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socialIcon:hover, .socialIcon:focus {
+  transform: scale(1.1);
+  color: #DDD;
+  transition: 0.2s ease;
+}
+
+.socialIconContainer {
+  position: relative;
+  margin-right: 1em;
+}
+
+/* sliding underline animation when hovering over social icons */ 
+.socialIconContainer::after {
+  content:'';
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 1px;
+  left: 0;
+  bottom: -0.5em;
+  background-color: white; 
+}
+
+.socialIconContainer:hover::after, .socialIconContainer:focus::after {
+  width: 100%;
+  transition: 0.2s ease;
+}
+/****/
+
+.socialIconsBar {
+  display: flex;
+}
+
+.avatar {
+  border-radius: 50%;
+}
