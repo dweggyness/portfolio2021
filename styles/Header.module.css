@@ -1,7 +1,6 @@
 .header {
-  width: 100vw;
-  min-width: 100vw;
-  padding: 0 0.5em;
+  width: 100%;
+  padding: 3em 1em;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,6 +15,10 @@
 .socialIconContainer {
   position: relative;
   margin-right: 1em;
+}
+
+.socialIconContainer:last-of-type {
+  margin-right: 0;
 }
 
 /* sliding underline animation when hovering over social icons */ 
@@ -42,4 +45,16 @@
 
 .avatar {
   border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-top: 2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding-top: 1em;
+  }
 }
