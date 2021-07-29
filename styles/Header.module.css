@@ -1,9 +1,10 @@
 .header {
   width: 100%;
-  padding: 3em 1em;
+  padding: 3em 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #FFF;
 }
 
 .socialIcon:hover, .socialIcon:focus {
@@ -12,17 +13,8 @@
   transition: 0.2s ease;
 }
 
-.socialIconContainer {
-  position: relative;
-  margin-right: 1em;
-}
-
-.socialIconContainer:last-of-type {
-  margin-right: 0;
-}
-
 /* sliding underline animation when hovering over social icons */ 
-.socialIconContainer::after {
+.underlineOnHover::after {
   content:'';
   position: absolute;
   display: inline-block;
@@ -33,14 +25,30 @@
   background-color: white; 
 }
 
-.socialIconContainer:hover::after, .socialIconContainer:focus::after {
+.underlineOnHover:hover::after, .underlineOnHover:focus::after {
   width: 100%;
   transition: 0.2s ease;
 }
 /****/
 
-.socialIconsBar {
+.headerRightBar {
   display: flex;
+  align-items: center;
+}
+
+.headerRightBar > * {
+  position: relative;
+  margin-right: 1em;
+}
+
+/* add more margin for the 'Projects' text to the social icons */
+.headerRightBar > *:first-child {
+  margin-right: 1.5em;
+}
+
+/* last social icon doesnt need margin right */
+.headerRightBar > *:last-child {
+  margin-right: 0;
 }
 
 .avatar {
