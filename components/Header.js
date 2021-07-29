@@ -7,6 +7,8 @@ import styles from '../styles/Header.module.css';
 import avatar from '../public/avatar.jpg';
 
 export default function Header() {
+  const router = useRouter();
+  const onHomePage = router.pathname === '/';
   return (
     <div className={styles.header}>
       <Link href="/">
@@ -21,12 +23,12 @@ export default function Header() {
         </a>
       </Link>
       <div className={styles.headerRightBar}>
-        <Link href="/projects">
+        <Link href={onHomePage ? '/projects' : '/'}>
           <a
             className={styles.underlineOnHover}
             style={{ fontSize: '1.2em', verticalAlign: 'middle', bottom: '2.5px' }}>
             <span>
-              Projects
+              {onHomePage ? 'Projects' : 'Home'}
             </span>
           </a>
         </Link>
