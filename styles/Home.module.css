@@ -5,8 +5,29 @@
   height: 100vh;
   min-height: 100vh;
   
-  width: 85%;
+  width: 80%;
   margin: auto;
+}
+
+.frontPage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7em;
+}
+
+.frontTitle {
+  font-size: 4.5em;
+  color: #FFF;
+}
+
+.frontDescription {
+  font-size: 1.5em;
+  color: #EEE;
+}
+
+.highlight {
+  color: #81b541;
 }
 
 @media (max-width: 768px) {
