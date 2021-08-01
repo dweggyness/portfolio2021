@@ -28,13 +28,13 @@
 }
 
 .contentTitle {
-  font-size: 3.5em;
+  font-size: 2.5em;
   color: #FFF;
 }
 
-.frontDescription {
+.description {
   font-size: 1.2em;
-  color: #EEE;
+  color: #DDD;
 }
 
 .highlight {

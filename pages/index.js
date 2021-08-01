@@ -10,11 +10,11 @@ export default function Home() {
         <Header />
         <section className={styles.titleContainer}>
           <h2 className={styles.frontTitle}>Hello!</h2>
-          <p className={styles.frontDescription}>
+          <p className={styles.description}>
             I'm Jun, a <span className={styles.highlight}>Malaysian</span> sophomore at
             <span className={styles.highlight}> NYU Abu Dhabi.</span>
           </p>
-          <p className={styles.frontDescription}>
+          <p className={styles.description}>
             Interested in <span className={styles.highlight}>Computer Science</span>,
             Design, accompanied with plenty of tea.
           </p>
@@ -25,6 +25,9 @@ export default function Home() {
       </section>
       <section className={styles.experienceContainer}>
         <h3 className={styles.contentTitle}>Work</h3>
+        <p className={styles.description}>
+          Code and experiences I have been financially compensated for.
+        </p>
       </section>
     </div>
   );
