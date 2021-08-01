@@ -1,5 +1,6 @@
 html,
 body {
+  color: #FFF;
   background-color: rgb(22, 22, 24);
   padding: 0;
   margin: 0;
@@ -18,4 +19,21 @@ a {
 
 p,h1,h2,h3,h4,h5 {
   margin: 0.2em 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.justifyCenter {
+  justify-content: center;
 }

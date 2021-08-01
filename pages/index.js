@@ -2,6 +2,8 @@ import React from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
 import styles from '../styles/Home.module.css';
 import Header from '../components/Header';
+import ExperienceComponent from '../components/ExperienceComponent';
+import nyuadLogo from '../public/nyuad-logo.png';
 
 export default function Home() {
   return (
@@ -28,6 +30,23 @@ export default function Home() {
         <p className={styles.description}>
           Code and experiences I have been financially compensated for.
         </p>
+        <div style={{ marginTop: '1em' }} />
+        <ExperienceComponent
+          img={nyuadLogo}
+          title='eMason Solutions - Kuala Lumpur, MY'
+          description='Software Development Intern'
+          startDate='Sept 2019'
+          endDate='May 2020'
+        />
+        <div style={{ marginTop: '1em' }} />
+        <ExperienceComponent
+          img={nyuadLogo}
+          title='NYUAD Student Assistantship Program - Abu Dhabi, UAE'
+          description='Website Development Assistant'
+          startDate='June 2021'
+          endDate='Aug 2021'
+        />
+        <div style={{ marginTop: '1em' }} />
       </section>
     </div>
   );

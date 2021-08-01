@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  color: #DDD;
+  font-weight: 300;
+}
+
+.icon {
+  margin-top: 4px;
+}
+
+.text {
+  font-weight: inherit;
+}
+
+.dateContainer {
+  padding: 0 0.4em;
+  background-color: #DEDEDE;
+  color: #333;
+  border-radius: 4px;
+  font-weight: 400;
+  
+  margin-right: 0.5em;
+}
