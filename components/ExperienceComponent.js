@@ -8,7 +8,7 @@ export default function ExperienceComponent(props) {
   return (
     <div className={`flex ${styles.container}`}>
       <IoIosArrowForward className={styles.icon} size={'1.4em'}/>
-      <div className={'flexCol'} style={{ marginLeft: '0.5em' }} >
+      <div className={'flexCol'} style={{ marginLeft: '1em' }} >
         <div className={'flex alignCenter'} style={{ marginBottom: '0.5em' }}>
           { img
             && <Image

@@ -28,6 +28,7 @@ export default function Home() {
           <IoIosArrowDown size='1.4em'/>
         </div>
       </section>
+      <div style={{ marginTop: '1em' }} />
       <section className={styles.experienceContainer}>
         <h3 className={styles.contentTitle}>Work</h3>
         <p className={styles.description}>
