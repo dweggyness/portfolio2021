@@ -3,7 +3,10 @@ import { IoIosArrowDown } from 'react-icons/io';
 import styles from '../styles/Home.module.css';
 import Header from '../components/Header';
 import ExperienceComponent from '../components/ExperienceComponent';
-import nyuadLogo from '../public/nyuad-logo.png';
+import nyuadLogo from '../public/images/nyuad-logo.png';
+import hackadLogo from '../public/images/hackad-logo.png';
+import gazelleLogo from '../public/images/gazelle-logo.png';
+import emasonLogo from '../public/images/emason-logo.png';
 
 export default function Home() {
   return (
@@ -28,11 +31,11 @@ export default function Home() {
       <section className={styles.experienceContainer}>
         <h3 className={styles.contentTitle}>Work</h3>
         <p className={styles.description}>
-          Code and experiences I have been financially compensated for.
+          Experiences I have been financially compensated for.
         </p>
         <div style={{ marginTop: '1em' }} />
         <ExperienceComponent
-          img={nyuadLogo}
+          img={emasonLogo}
           title='eMason Solutions - Kuala Lumpur, MY'
           description='Software Development Intern'
           startDate='Sept 2019'
@@ -45,6 +48,30 @@ export default function Home() {
           description='Website Development Assistant'
           startDate='June 2021'
           endDate='Aug 2021'
+        />
+        <div style={{ marginTop: '1em' }} />
+      </section>
+      <div style={{ marginTop: '2em' }} />
+      <section className={styles.experienceContainer}>
+        <h3 className={styles.contentTitle}>Experience</h3>
+        <p className={styles.description}>
+          Organizations I have worked for.
+        </p>
+        <div style={{ marginTop: '1em' }} />
+        <ExperienceComponent
+          img={gazelleLogo}
+          title='The Gazelle - Abu Dhabi, UAE'
+          description='Deputy Web Chief'
+          startDate='Jan 2021'
+          endDate='Present'
+        />
+        <div style={{ marginTop: '1em' }} />
+        <ExperienceComponent
+          img={hackadLogo}
+          title='hackAD - Abu Dhabi, UAE'
+          description='Event Coordinator'
+          startDate='Jan 2021'
+          endDate='May 2021'
         />
         <div style={{ marginTop: '1em' }} />
       </section>
