@@ -1,5 +1,5 @@
 import React from 'react';
-import { IoIosArrowDown } from 'react-icons/io';
+import { IoIosArrowDown, IoIosCloudDownload } from 'react-icons/io';
 import styles from '../styles/Home.module.css';
 import { Header, Footer, Button, ExperienceComponent } from '../components';
 import nyuadLogo from '../public/images/nyuad-logo.png';
@@ -73,11 +73,13 @@ export default function Home() {
           startDate='Jan 2021'
           endDate='May 2021'
         />
-        <div style={{ marginTop: '1em' }} />
-        <div>
+        <div style={{ marginTop: '2.5em' }} />
+        <div className={styles.resumeButtonContainer}>
           <Button
+            icon={IoIosCloudDownload}
             link={'resume.pdf'}
             text='Resume'
+            shouldOpenInNewTab={true}
           />
         </div>
       </section>
