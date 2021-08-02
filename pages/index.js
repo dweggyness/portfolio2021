@@ -1,9 +1,7 @@
 import React from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
 import styles from '../styles/Home.module.css';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import ExperienceComponent from '../components/ExperienceComponent';
+import { Header, Footer, ExperienceComponent } from '../components';
 import nyuadLogo from '../public/images/nyuad-logo.png';
 import hackadLogo from '../public/images/hackad-logo.png';
 import gazelleLogo from '../public/images/gazelle-logo.png';
