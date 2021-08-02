@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdEmail } from 'react-icons/md';
 import styles from '../styles/Footer.module.css';
+import Button from './Button';
 
 export default function Footer() {
   return (
@@ -9,11 +10,11 @@ export default function Footer() {
       <div style={{ marginLeft: '0.8em' }} />
       •
       <div style={{ marginLeft: '0.9em' }} />
-      <a className={styles.contactButton} href="https://aemail.com/gJm9">
-        <MdEmail />
-        <div style={{ marginLeft: '0.2em' }} />
-        Contact me!
-      </a>
+      <Button
+        icon={MdEmail}
+        text='Contact me!'
+        link='https://aemail.com/gJm9'
+      />
     </div>
   );
 }
