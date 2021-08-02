@@ -8,7 +8,7 @@
   border-radius: 2px;
 }
 
-.button:hover, .contactButton:focus {
+.button:hover, .button:focus {
   transition: 0.2s ease;
   filter: brightness(1.25);
   transform: scale(1.05);
