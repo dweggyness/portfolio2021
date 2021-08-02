@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
 import styles from '../styles/ExperienceComponent.module.css';
@@ -33,3 +34,11 @@ export default function ExperienceComponent(props) {
     </div>
   );
 }
+
+ExperienceComponent.propTypes = {
+  img: PropTypes.element,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  startDate: PropTypes.string,
+  endDate: PropTypes.string,
+};

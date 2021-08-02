@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
 import styles from '../styles/Home.module.css';
-import { Header, Footer, ExperienceComponent } from '../components';
+import { Header, Footer, Button, ExperienceComponent } from '../components';
 import nyuadLogo from '../public/images/nyuad-logo.png';
 import hackadLogo from '../public/images/hackad-logo.png';
 import gazelleLogo from '../public/images/gazelle-logo.png';
@@ -74,6 +74,12 @@ export default function Home() {
           endDate='May 2021'
         />
         <div style={{ marginTop: '1em' }} />
+        <div>
+          <Button
+            link={'resume.pdf'}
+            text='Resume'
+          />
+        </div>
       </section>
       <Footer />
     </div>
