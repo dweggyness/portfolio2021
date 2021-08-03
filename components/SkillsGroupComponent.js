@@ -66,9 +66,9 @@ function Item(props) {
   const { img, text } = props;
   return (
     <li>
-      <Image src={img} width={20} height={20} alt={`logo for ${text}`} objectFit='scale-down' />
+      <Image src={img} width={24} height={24} alt={`logo for ${text}`} objectFit='scale-down' />
       <span style={{ marginLeft: '0.5em' }} />
-      {text}
+      <p>{text}</p>
     </li>
   );
 }

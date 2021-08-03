@@ -36,19 +36,19 @@ export default function Home() {
         </p>
         <div style={{ marginTop: '1em' }} />
         <ExperienceComponent
-          img={emasonLogo}
-          title='eMason Solutions - Kuala Lumpur, MY'
-          description='Software Development Intern'
-          startDate='Sept 2019'
-          endDate='May 2020'
-        />
-        <div style={{ marginTop: '1em' }} />
-        <ExperienceComponent
           img={nyuadLogo}
           title='NYUAD Student Assistantship Program - Abu Dhabi, UAE'
           description='Website Development Assistant'
           startDate='June 2021'
           endDate='Aug 2021'
+        />
+        <div style={{ marginTop: '1em' }} />
+        <ExperienceComponent
+          img={emasonLogo}
+          title='eMason Solutions - Kuala Lumpur, MY'
+          description='Software Development Intern'
+          startDate='Sept 2019'
+          endDate='May 2020'
         />
         <div style={{ marginTop: '1em' }} />
       </section>
