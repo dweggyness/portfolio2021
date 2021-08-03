@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, ProjectComponent } from '../components';
+import { Header, ProjectComponent, Footer } from '../components';
 import styles from '../styles/pages/ProjectPage.module.css';
 
 export default function Projects() {
@@ -16,6 +16,7 @@ export default function Projects() {
       <section className={styles.projectContainer}>
         <ProjectComponent />
       </section>
+      <Footer />
     </div>
   );
 }
