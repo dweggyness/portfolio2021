@@ -22,7 +22,7 @@ export default function Projects() {
           title='Dwegstea Tea Blog'
           projectLink='https://dwegstea.me'
           githubLink='https://github.com/dweggyness/contentfulBlog'
-          description='A tea blog for me to write tea reviews. Uses a 3rd party CMS to add content!'
+          description='A tea blog for me to write tea reviews. Uses a 3rd party CMS to add content! Sadly out of date :('
           techStackText='GatsbyJS / React / JS / CSS / HTML'
           date='Sept 2020'
         />
@@ -32,7 +32,7 @@ export default function Projects() {
           title='Netflix Chrome Extension'
           projectLink='https://chrome.google.com/webstore/detail/netflix-reddit-discussion/ihiibcpkgomehmkohaedaebejibmdnlm?hl=en'
           githubLink='https://github.com/dweggyness/netflixRedditDiscussion'
-          description='A simple extension for my own use, displays reddit discussion threads for the current episode you are watching on Netflix.'
+          description='A simple extension for my own use, displays reddit discussion threads for the current episode/show you just finished watching on Netflix.'
           techStackText='JS / CSS / HTML'
           date='Nov 2020'
         />
@@ -42,7 +42,7 @@ export default function Projects() {
           title='Battleships Clone'
           projectLink='https://waterbound-fighting-vessels.herokuapp.com/'
           githubLink='https://github.com/dweggyness/battleships'
-          description='A full-stack battleship clone, supports online-multiplayer '
+          description='A full-stack battleship clone, supports online-multiplayer, or you can play against the AI! '
           techStackText='Express / React / JS / CSS / HTML'
           date='June 2020'
         />
