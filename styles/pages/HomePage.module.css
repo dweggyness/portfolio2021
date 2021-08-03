@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  
+  width: 80%;
+  margin: auto;
+}
+
+.frontPage {
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  margin-bottom: 15%;
+}
+
+.frontTitle {
+  font-size: 4.5em;
+}
+
+.contentTitle {
+  font-size: 2.5em;
+}
+
+.description {
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.highlight {
+  color: #81b541;
+}
+
+.downArrowContainer {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-self: center;
+  flex-shrink: 1;
+}
+
+.resumeButtonContainer {
+  width: 10em;
+  height: 2.5em;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}

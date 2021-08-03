@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+.icon {
+  margin-top: 4px;
+}
+
+.text {
+  font-weight: inherit;
+}
+
+.dateContainer {
+  padding: 0 0.6em;
+  background-color: #EEE;
+  color: #222;
+  border-radius: 4px;
+  font-weight: 350;
+  font-size: 0.9em;
+  
+  margin-right: 0.5em;
+}

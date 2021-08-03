@@ -1,0 +1,21 @@
+.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #81b541;
+  box-sizing: border-box;
+  padding: 0.1em 0.4em;
+  border-radius: 2px;
+  height: 100%;
+}
+
+.button:hover, .button:focus {
+  transition: 0.2s ease;
+  filter: brightness(1.25);
+  transform: scale(1.05);
+}
+
+.icon {
+  margin-top: 1%;
+}
