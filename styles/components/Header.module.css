@@ -8,7 +8,7 @@
 
 .socialIcon:hover, .socialIcon:focus {
   transform: scale(1.1);
-  color: #DDD;
+  color: rgba(255, 255, 255, 0.8);
   transition: 0.2s ease;
 }
 

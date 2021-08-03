@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  color: #DDD;
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 300;
 }
 

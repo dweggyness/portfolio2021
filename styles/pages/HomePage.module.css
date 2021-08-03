@@ -31,7 +31,7 @@
 
 .description {
   font-size: 1.2em;
-  color: #DDD;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .highlight {
