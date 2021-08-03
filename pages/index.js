@@ -6,6 +6,7 @@ import nyuadLogo from '../public/images/nyuad-logo.png';
 import hackadLogo from '../public/images/hackad-logo.png';
 import gazelleLogo from '../public/images/gazelle-logo.png';
 import emasonLogo from '../public/images/emason-logo.png';
+import SkillsGroupComponent from '../components/SkillsGroupComponent';
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
         </div>
       </section>
       <div style={{ marginTop: '1em' }} />
-      <section className={styles.experienceContainer}>
+      <section>
         <h3 className={styles.contentTitle}>Work</h3>
         <p className={styles.description}>
           Experiences I have been financially compensated for.
@@ -52,7 +53,7 @@ export default function Home() {
         <div style={{ marginTop: '1em' }} />
       </section>
       <div style={{ marginTop: '2em' }} />
-      <section className={styles.experienceContainer}>
+      <section>
         <h3 className={styles.contentTitle}>Experience</h3>
         <p className={styles.description}>
           Organizations I have worked for.
@@ -82,6 +83,16 @@ export default function Home() {
             shouldOpenInNewTab={true}
           />
         </div>
+      </section>
+      <div style={{ marginTop: '3em' }} />
+      <section>
+        <h3 className={styles.contentTitle}>Skills</h3>
+        <p className={styles.description}>
+          Some of the technologies and software I know. Most likely learning more at the moment.
+        </p>
+        <div style={{ marginTop: '1em' }} />
+        <SkillsGroupComponent />
+        <div style={{ marginTop: '2.5em' }} />
       </section>
       <Footer />
     </div>
