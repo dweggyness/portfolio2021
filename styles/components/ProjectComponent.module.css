@@ -47,12 +47,17 @@
   transition: 0.2s ease;
 }
 
-.projectImage {
+.projectImageContainer {
+  align-self: center;
   position: relative;
-  display: inline-block;
-  height: 300px;
+  width: 95%;
+  height: auto;
+  max-height: 100%;
 }
 
+.projectImage {
+  position: relative;
+}
 
 .descriptionContainerLeft {
   flex-shrink: 1;
