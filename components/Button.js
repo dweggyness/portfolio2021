@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../styles/Button.module.css';
+import styles from '../styles/components/Button.module.css';
 
 export default function Button(props) {
   const { icon, text, link, shouldOpenInNewTab = false } = props;

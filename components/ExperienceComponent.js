@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
-import styles from '../styles/ExperienceComponent.module.css';
+import styles from '../styles/components/ExperienceComponent.module.css';
 
 export default function ExperienceComponent(props) {
   const { img, title, description, startDate, endDate } = props;

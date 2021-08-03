@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Image from 'next/image';
-import styles from '../styles/SkillsGroupComponent.module.css';
+import styles from '../styles/components/SkillsGroupComponent.module.css';
 import { javascriptLogo, cssLogo, figmaLogo, gatsbyLogo, gitLogo,
   htmlLogo, nextLogo, photoshopLogo, pythonLogo, reactLogo, postgresqlLogo } from '../public/logos';
 

@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '../styles/Header.module.css';
+import styles from '../styles/components/Header.module.css';
 import avatar from '../public/avatar.jpg';
 
 export default function Header() {

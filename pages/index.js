@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoIosArrowDown, IoIosCloudDownload } from 'react-icons/io';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/pages/Home.module.css';
 import { Header, Footer, Button, ExperienceComponent } from '../components';
 import nyuadLogo from '../public/images/nyuad-logo.png';
 import hackadLogo from '../public/images/hackad-logo.png';

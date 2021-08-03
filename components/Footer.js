@@ -1,6 +1,6 @@
 import React from 'react';
 import { MdEmail } from 'react-icons/md';
-import styles from '../styles/Footer.module.css';
+import styles from '../styles/components/Footer.module.css';
 import Button from './Button';
 
 export default function Footer() {
