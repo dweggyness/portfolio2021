@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header } from '../components';
+import { Header, ProjectComponent } from '../components';
 import styles from '../styles/pages/ProjectPage.module.css';
 
 export default function Projects() {
@@ -11,6 +11,10 @@ export default function Projects() {
         <p className={styles.description}>
           Some things I've worked on for fun in the past, or for personal use.
         </p>
+      </section>
+      <div style={{ marginTop: '3em' }} />
+      <section className={styles.projectContainer}>
+        <ProjectComponent />
       </section>
     </div>
   );

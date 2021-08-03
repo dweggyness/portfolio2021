@@ -4,3 +4,4 @@ export { default as Button } from './Button';
 export { default as Header } from './Header';
 export { default as ExperienceComponent } from './ExperienceComponent';
 export { default as SkillsGroupComponent } from './SkillsGroupComponent';
+export { default as ProjectComponent } from './ProjectComponent';

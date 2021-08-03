@@ -6,6 +6,12 @@
   margin: auto;
 }
 
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contentTitle {
   font-size: 2.5em;
 }

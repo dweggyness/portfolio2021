@@ -1,0 +1,57 @@
+.container {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  min-width: 400px;
+  margin: 0 auto;
+  background-color: inherit;
+  
+  backdrop-filter: brightness(1.5);
+  border-radius: 6px;
+  padding: 1.5em 1em;
+}
+
+
+.title {
+  font-size: 1.4em;
+}
+
+.description {
+}
+
+.techStackText {
+  opacity: 60%;
+}
+
+.hoverAnim::after {
+  content:'';
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 1px;
+  left: 0;
+  bottom: 0.1em;
+  background-color: white; 
+}
+
+.hoverAnim:hover::after, .title:active::after {
+  width: 100%;
+  transition: 0.2s ease;
+}
+
+.projectImage {
+  position: relative;
+  display: inline-block;
+  height: 300px;
+}
+
+
+.descriptionContainerLeft {
+  flex-shrink: 1;
+}
+
+.descriptionContainerRight {
+  align-items: flex-end;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
