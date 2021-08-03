@@ -5,3 +5,12 @@
   width: 80%;
   margin: auto;
 }
+
+.contentTitle {
+  font-size: 2.5em;
+}
+
+.description {
+  font-size: 1.2em;
+  color: #DDD;
+}
