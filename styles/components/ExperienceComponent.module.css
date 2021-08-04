@@ -22,3 +22,16 @@
   
   margin-right: 0.5em;
 }
+
+.flexMediaQuery {
+  align-items: flex-start;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+  .flexMediaQuery {
+    flex-direction: column;
+  }
+}

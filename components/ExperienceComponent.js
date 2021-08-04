@@ -22,12 +22,13 @@ export default function ExperienceComponent(props) {
           }
           <p className={styles.text} style={{ marginLeft: '0.5em' }}> {title} </p>
         </div>
-        <div className={'flex alignCenter'}>
+        <div className={`flex ${styles.flexMediaQuery}`}>
           <div className={`flex ${styles.dateContainer}`}>
             <p className={styles.text}> {startDate} </p>
             <p className={styles.text} style={{ whiteSpace: 'pre-wrap' }}> {'-'} </p>
             <p className={styles.text}> {endDate} </p>
           </div>
+          <div style={{ marginTop: '0.5em' }} />
           <p className={styles.text} style={{ margin: 0 }} > {description} </p>
         </div>
       </div>
