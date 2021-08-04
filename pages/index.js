@@ -30,11 +30,8 @@ export default function Home() {
       </section>
       <div style={{ marginTop: '1em' }} />
       <section>
-        <h3 className={styles.contentTitle}>Work</h3>
-        <p className={styles.description}>
-          Experiences I have been financially compensated for.
-        </p>
-        <div style={{ marginTop: '1em' }} />
+        <h3 className={styles.contentTitle}>Work Experience</h3>
+        <div style={{ marginTop: '1.5em' }} />
         <ExperienceComponent
           img={nyuadLogo}
           title='NYUAD Student Assistantship Program - Abu Dhabi, UAE'
@@ -54,11 +51,8 @@ export default function Home() {
       </section>
       <div style={{ marginTop: '2em' }} />
       <section>
-        <h3 className={styles.contentTitle}>Experience</h3>
-        <p className={styles.description}>
-          Organizations I have worked for.
-        </p>
-        <div style={{ marginTop: '1em' }} />
+        <h3 className={styles.contentTitle}>Volunteer</h3>
+        <div style={{ marginTop: '1.5em' }} />
         <ExperienceComponent
           img={gazelleLogo}
           title='The Gazelle - Abu Dhabi, UAE'
@@ -74,7 +68,7 @@ export default function Home() {
           startDate='Jan 2021'
           endDate='May 2021'
         />
-        <div style={{ marginTop: '2.5em' }} />
+        <div style={{ marginTop: '3em' }} />
         <div className={styles.resumeButtonContainer}>
           <Button
             icon={IoIosCloudDownload}
