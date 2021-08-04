@@ -12,7 +12,7 @@ export default function Projects() {
       <section>
         <h3 className={styles.contentTitle}>Projects</h3>
         <p className={styles.description}>
-          Some things I've worked on for fun in the past, or for personal use.
+          Some things I&apos;ve worked on for fun in the past, or for personal use.
         </p>
       </section>
       <div style={{ marginTop: '3em' }} />

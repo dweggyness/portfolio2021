@@ -16,7 +16,7 @@ export default function Home() {
         <section className={styles.titleContainer}>
           <h2 className={styles.frontTitle}>Hello!</h2>
           <p className={styles.description}>
-            I'm Jun, a <span className={styles.highlight}>Malaysian</span> sophomore at
+            I&apos;m Jun, a <span className={styles.highlight}>Malaysian</span> sophomore at
             <span className={styles.highlight}> NYU Abu Dhabi.</span>
           </p>
           <p className={styles.description}>
