@@ -2,7 +2,7 @@
   position: relative;
   max-width: 800px;
   width: 100%;
-  min-width: 400px;
+  min-width: 300px;
   margin: 0 auto;
   background-color: inherit;
   
@@ -67,4 +67,14 @@
   align-items: flex-end;
   flex-grow: 1;
   flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .flexMediaQuery {
+    flex-direction: column;
+  }
+  .descriptionContainerRight {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
 }

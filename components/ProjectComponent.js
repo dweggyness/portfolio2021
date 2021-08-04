@@ -8,7 +8,7 @@ export default function ProjectComponent(props) {
   const { img, title, projectLink, githubLink, description, techStackText, date } = props;
   return (
     <section className={`flexCol ${styles.container}`}>
-      <div className={'flex'}>
+      <div className={`flex ${styles.flexMediaQuery}`}>
         <div className={`flexCol ${styles.descriptionContainerLeft}`}>
           <div style={{ position: 'relative' }}>
             <a className={styles.hoverAnim} href={projectLink} target='_blank' rel='noreferrer'>
