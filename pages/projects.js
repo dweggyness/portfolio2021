@@ -20,7 +20,7 @@ export default function Projects() {
         <ProjectComponent
           img={DwegsteaScreenshot}
           title='Dwegstea Tea Blog'
-          projectLink='https://dwegstea.me'
+          projectLink='https://dwegstea.netlify.app/'
           githubLink='https://github.com/dweggyness/contentfulBlog'
           description='A tea blog for me to write tea reviews. Uses a 3rd party CMS to add content! Sadly out of date :('
           techStackText='GatsbyJS / React / JS / CSS / HTML'
